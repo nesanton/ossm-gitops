@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: kiali-ossm
+  namespace: openshift-gitops
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: openshift-operators
+    server: {{ .Values.spec.destination.server }}
+  project: default
+  source:
+    path: kiali-ossm
+    repoURL: {{ .Values.spec.source.repoURL }}
