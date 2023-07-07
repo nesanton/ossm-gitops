@@ -13,3 +13,7 @@ spec:
   source:
     path: jaeger-product
     repoURL: {{ .Values.spec.source.repoURL }}
+  syncPolicy:
+    automated:
+      prune: false
+      selfHeal: true

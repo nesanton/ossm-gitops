@@ -13,3 +13,7 @@ spec:
   source:
     path: elasticsearch-operator
     repoURL: {{ .Values.spec.source.repoURL }}
+  syncPolicy:
+    automated:
+      prune: false
+      selfHeal: true
