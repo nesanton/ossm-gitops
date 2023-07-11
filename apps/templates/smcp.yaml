@@ -3,8 +3,6 @@ kind: Application
 metadata:
   name: smcp
   namespace: openshift-gitops
-  finalizers:
-  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     server: {{ .Values.spec.destination.server }}
