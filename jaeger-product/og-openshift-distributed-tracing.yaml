@@ -4,6 +4,6 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "1"
     olm.providedAPIs: Jaeger.v1.jaegertracing.io
-  generateName: openshift-distributed-tracing-
+  name: og-openshift-distributed-tracing
   namespace: openshift-distributed-tracing
 spec: {}
