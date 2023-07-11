@@ -5,6 +5,7 @@ metadata:
   namespace: openshift-gitops
 spec:
   destination:
+    namespace: istio-system
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
