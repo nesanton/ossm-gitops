@@ -121,4 +121,9 @@ Confirm that the App has synced the entire App-of-Apps and the Service Mesh Cont
 * App of Apps is rolled out in waves to ensure that the operators are healthy, namespaces (mainly openshift-distributed-tracing) exist, etc. before the SMCP is instanciated.
 * The `StartingCSV` filed may need adjustment for your version of OpenShift. Operators will have no problem updating to the current version from an older StartingCSV. But depending on when you're reading this, it could be that the versions in this repo are already obsolete enough to be removed from the catalogue sources. Generally speaking, its a good practice to instanciate Operators from a version that isn't too old for the versions of OpenShift clusters you are running. Follow the [Installing from OperatorHub using the CLI](https://docs.openshift.com/container-platform/4.13/operators/admin/olm-adding-operators-to-cluster.html#olm-installing-operator-from-operatorhub-using-cli_olm-adding-operators-to-a-cluster) and [Installing a specific version of an Operator](https://docs.openshift.com/container-platform/4.13/operators/admin/olm-adding-operators-to-cluster.html#olm-installing-specific-version-cli_olm-adding-operators-to-a-cluster) for how-to.
 
-##
+## Links
+
+* [Red Hat Developer Guide: OSSM heading to production and Day 2](https://github.com/redhat-developer-demos/ossm-heading-to-production-and-day-2/)
+* [Example of Production SMCP sizing](https://github.com/redhat-developer-demos/ossm-heading-to-production-and-day-2/blob/main/scenario-1-kick-off-meeting/README.adoc#prod-environment-service-mesh-ossm-architecture)
+* [Custom HealthChecks with ArgoCD](https://argo-cd.readthedocs.io/en/stable/operator-manual/health/#custom-health-checks)
+* [An alternative solution for ArgoCD resource health verification](https://blog.stderr.at/openshift/2023-03-20-operator-installation-with-argocd/)
