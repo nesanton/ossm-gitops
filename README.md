@@ -127,3 +127,4 @@ Confirm that the App has synced the entire App-of-Apps and the Service Mesh Cont
 * [Example of Production SMCP sizing](https://github.com/redhat-developer-demos/ossm-heading-to-production-and-day-2/blob/main/scenario-1-kick-off-meeting/README.adoc#prod-environment-service-mesh-ossm-architecture)
 * [Custom HealthChecks with ArgoCD](https://argo-cd.readthedocs.io/en/stable/operator-manual/health/#custom-health-checks)
 * [An alternative solution for ArgoCD resource health verification](https://blog.stderr.at/openshift/2023-03-20-operator-installation-with-argocd/)
+* A collection of GitOps collateral from Red Hat Community of Practice [GitOps Catalog](https://github.com/redhat-cop/gitops-catalog)
