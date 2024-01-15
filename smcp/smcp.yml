@@ -27,4 +27,4 @@ spec:
       enabled: true
   telemetry:
     type: Istiod
-  version: v2.3
+  version: v2.4
